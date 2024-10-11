@@ -29,11 +29,13 @@ public class Pokemon {
         Pokemon bulbasaur = new Pokemon("Bulbasaur",49,45,49);
         Pokemon marshadow = new Pokemon("Marshadow",125,90,80);
         Pokemon lapras = new Pokemon("Lapras",85,130,80);
+        Pokemon blastoise = new Pokemon("Bulbasaur", 70, 95,75);
         // Mostrar información de cada Pokémon
         rayquaza.mostrarInfo();
         bulbasaur.mostrarInfo();
         marshadow.mostrarInfo();
         lapras.mostrarInfo();
+        blastoise.mostrarInfo();
 
     }
 }
